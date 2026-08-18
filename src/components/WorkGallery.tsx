@@ -6,7 +6,7 @@ const WorkGallery = () => {
     <section
       id="work-gallery"
       className="py-12 md:py-16"
-      style={{ backgroundColor: "#3098d1" }}
+      style={{ backgroundColor: siteConfig.brand.primary }}
     >
       <div className="max-w-5xl mx-auto text-center px-4 mb-8">
         <h2 className="text-2xl md:text-4xl font-bold text-white mb-2">

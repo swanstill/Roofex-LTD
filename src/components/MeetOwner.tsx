@@ -28,8 +28,8 @@ const MeetOwner = () => {
             </div>
 
             <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-              &ldquo;Hi, we are the faces behind First 4 Contracts Ltd. We
-              started First 4 Contracts Ltd to give homeowners an honest,
+              &ldquo;Hi, we are the faces behind Roofex LTD. We
+              started Roofex LTD to give homeowners an honest,
               professional roofing service they can rely on. With over 15 years
               of experience, we take pride in every roof we complete.&rdquo;
             </p>
@@ -39,7 +39,7 @@ const MeetOwner = () => {
                 <li key={index} className="flex items-center gap-3">
                   <div
                     className="w-6 h-6 rounded-full flex items-center justify-center shrink-0"
-                    style={{ backgroundColor: "#2563EB" }}
+                    style={{ backgroundColor: siteConfig.brand.primary }}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ const MeetOwner = () => {
             <Link href="#quote-form" className="w-full mt-2">
               <button
                 className="w-full py-4 rounded-full text-white font-bold text-lg md:text-xl transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "#2563EB" }}
+                style={{ backgroundColor: siteConfig.brand.primary }}
               >
                 {siteConfig.cta.buttonPrimary}
               </button>

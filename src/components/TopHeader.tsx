@@ -10,9 +10,9 @@ const TopHeader = () => {
         <Image
           src={siteConfig.logoImage}
           alt={siteConfig.logoAltText}
-          className="h-15 w-1/2 shrink-0 md:h-15 md:w-55"
-          height={80}
-          width={160}
+          className="h-15 w-1/2 shrink-0 object-contain md:h-15 md:w-55"
+          height={200}
+          width={370}
           unoptimized
         />
         <Link
@@ -71,7 +71,7 @@ const TopHeader = () => {
           </div>
         </Link>
         <Link
-          href="https://www.checkatrade.com/trades/first4contractslimited"
+          href="https://www.checkatrade.com/trades/roofexltd"
           target="_blank"
           className="min-w-0 flex-1"
         >

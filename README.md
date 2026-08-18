@@ -39,9 +39,9 @@ Example:
 
 ```ts
 export const siteConfig = {
-  companyName: "SL Building & Roofing",
+  companyName: "Roofex LTD",
   phoneNumber: "+44 1234 567890",
-  emailAddress: "info@slroofing.co.uk",
+  emailAddress: "info@roofexltd.co.uk",
   guaranteeYears: "10-Year Guarantee",
   jobsCompleted: "250+ Jobs Completed",
   heroImage: "/images/hero.jpg",

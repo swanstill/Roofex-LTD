@@ -1,11 +1,11 @@
 import { SiteConfig } from "@/lib/types";
 
 export const siteConfig: SiteConfig = {
-  companyName: "First 4 Contracts Ltd",
-  logoImage: "/icons/logo.png",
-  logoAltText: "First 4 Contracts Logo",
+  companyName: "Roofex LTD",
+  logoImage: "/icons/logo.jpg",
+  logoAltText: "Roofex LTD Logo",
   heroSloganPrimary:
-    " Certified Roofing South Wales.",
+    " Professional Roofing in South Wales.",
   heroSloganSecondary: "Family-Run & Fully Insured",
   locationPrimary: "",
   foundedYear: "Established 2024",
@@ -15,11 +15,11 @@ export const siteConfig: SiteConfig = {
   insurredInfo: "Fully Insured",
   jobsCompleted: "250+ Jobs Completed",
   phoneNumber: "+447427694766",
-  emailAddress: "info@enterpriseroofingltd.co.uk",
+  emailAddress: "info@roofexltd.co.uk",
   ctaTextPrimary: "Get a Free Roof Inspection",
   ctaTextSecondary: "Call Us",
   heroImage: "/images/hero-image.jpeg",
-  heroImageAltText: "First 4 Contracts Hero Image",
+  heroImageAltText: "Roofex LTD Hero Image",
   heroTitle:
     "Trusted Roofers in South Wales.",
   heroDescription:
@@ -68,23 +68,23 @@ export const siteConfig: SiteConfig = {
     },
   ],
   brand: {
-    primary: "#3098d1",
+    primary: "#C66B36",
     secondary: "#010203",
   },
   seo: {
-    baseUrl: "https://www.first4contracts.uk/",
-    titleTemplate: "%s | First 4 Contracts",
+    baseUrl: "https://www.roofexltd.co.uk/",
+    titleTemplate: "%s | Roofex LTD",
     defaultTitle:
       "Trusted Roofers in South Wales.",
     description:
       "Honest pricing, expert workmanship, and a 20-year guarantee on every roof we build in South Wales",
     ogImage: "/images/og-default.jpg",
-    twitterHandle: "@slroofing",
+    twitterHandle: "@roofexltd",
   },
   reviewsData: {
     source: "Checkatrade",
     sourceImage: "/images/checkatrade-logo.png",
-    reviewsUrl: "https://www.checkatrade.com/trades/first4contractslimited",
+    reviewsUrl: "https://www.checkatrade.com/trades/roofexltd",
     reviews: [
       {
         name: "Vrg Leeds",
@@ -384,7 +384,7 @@ export const siteConfig: SiteConfig = {
   },
   workGallery: {
     headline: "Recent Projects Completed",
-    caption: "Quality work delivered by First 4 Contracts Ltd",
+    caption: "Quality work delivered by Roofex LTD",
     images: [
       "/gallery/09090.jpeg",
       "/gallery/1413.jpeg",
@@ -402,8 +402,8 @@ export const siteConfig: SiteConfig = {
     ],
   },
   ownerInfo: {
-    headline: "Meet Sam – Owner of First 4 Contracts",
-    text: "“Hi, I’m Sam. I started First 4 Contracts to give homeowners an honest, professional roofing service they can rely on. With over 15 years of experience, I take pride in every roof we complete.”",
+    headline: "Meet the Team Behind Roofex LTD",
+    text: "“Hi, we’re the team behind Roofex LTD. We started Roofex LTD to give homeowners an honest, professional roofing service they can rely on. With over 15 years of experience, we take pride in every roof we complete.”",
     bulletPoints: [
       "250+ projects completed locally",
       "Fully insured & qualified team",
