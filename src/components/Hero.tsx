@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="flex-1 flex flex-col gap-5 md:pl-8">
           <h1 className="text-3xl md:text-5xl xl:text-6xl font-extrabold text-white leading-tight">
             {siteConfig.heroSloganPrimary}{" "}
-            <span style={{ color: siteConfig.brand.secondary }}>
+            <span style={{ color: siteConfig.brand.primary }}>
               {siteConfig.locationPrimary}
             </span>
           </h1>
