@@ -337,16 +337,19 @@ const MultiStepForm = ({ onStepChange }: MultiStepFormProps) => {
         {renderStepContent()}
       </div>
 
-      {/* Back / Next Buttons */}
+      {/* Back / Submit Buttons */}
       <div className="flex justify-between items-center max-w-2xl mx-auto w-full px-2">
-        <button
-          onClick={handleBack}
-          disabled={currentStep === 0}
-          className="px-6 md:px-8 py-3 rounded-full font-semibold transition-all disabled:opacity-30 disabled:cursor-not-allowed text-sm md:text-base"
-          style={{ backgroundColor: "rgba(255,255,255,0.2)", color: "white" }}
-        >
-          Back
-        </button>
+        {currentStep >= 1 ? (
+          <button
+            onClick={handleBack}
+            className="px-6 md:px-8 py-3 rounded-full font-semibold transition-all text-sm md:text-base"
+            style={{ backgroundColor: "rgba(255,255,255,0.2)", color: "white" }}
+          >
+            Back
+          </button>
+        ) : (
+          <span aria-hidden="true" />
+        )}
 
         {currentStep === steps.length - 1 ? (
           <button
@@ -361,20 +364,7 @@ const MultiStepForm = ({ onStepChange }: MultiStepFormProps) => {
           >
             Submit
           </button>
-        ) : (
-          <button
-            onClick={goNext}
-            disabled={!isStepComplete()}
-            className="px-6 md:px-8 py-3 rounded-full font-bold text-white transition-all disabled:opacity-40 disabled:cursor-not-allowed text-sm md:text-base"
-            style={{
-              backgroundColor: isStepComplete()
-                ? siteConfig.brand.secondary
-                : "#6b7280",
-            }}
-          >
-            Next →
-          </button>
-        )}
+        ) : null}
       </div>
     </div>
   );
