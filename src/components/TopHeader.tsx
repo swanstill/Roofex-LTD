@@ -1,10 +1,6 @@
 import { siteConfig } from "@/config/SiteConfig";
 import Image from "next/image";
 import Link from "next/link";
-import GoogleWidget from "./GoogleWidget";
-
-const GOOGLE_REVIEW_URL = "https://share.google/eewd9ZEPoBsN6jB3G";
-const GOOGLE_REVIEW_COUNT = "9";
 
 const TopHeader = () => {
   return (
@@ -20,14 +16,20 @@ const TopHeader = () => {
           unoptimized
         />
         <Link
-          href={GOOGLE_REVIEW_URL}
+          href="https://maps.app.goo.gl/3bihMqcPVpCQgKb26"
           target="_blank"
           className="min-w-0 w-1/2 inset-0 md:hidden"
         >
-          <GoogleWidget
-            reviewCount={GOOGLE_REVIEW_COUNT}
-            href={GOOGLE_REVIEW_URL}
-          />
+          <div className="flex h-[60px] w-full items-center justify-center">
+            <Image
+              src="/icons/google-widget.png"
+              alt="Google Reviews"
+              width={180}
+              height={60}
+              className="h-full w-full "
+              style={{ mixBlendMode: "multiply" }}
+            />
+          </div>
         </Link>
       </div>
 
@@ -53,15 +55,20 @@ const TopHeader = () => {
       {/* Row 2 on mobile: Checkatrade + TrustATrader; all three badges on md+ */}
       <div className="flex w-full items-stretch gap-2 md:w-auto">
         <Link
-          href={GOOGLE_REVIEW_URL}
+          href="https://share.google/IBkXH6SbU4ajLMwyp"
           target="_blank"
           className="hidden min-w-0  md:flex"
         >
-          <GoogleWidget
-            reviewCount={GOOGLE_REVIEW_COUNT}
-            href={GOOGLE_REVIEW_URL}
-            className="md:w-[180px]"
-          />
+          <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
+            <Image
+              src="/icons/google-widget.png"
+              alt="Google Reviews"
+              width={180}
+              height={60}
+              className="h-full w-full object-contain"
+              style={{ mixBlendMode: "multiply" }}
+            />
+          </div>
         </Link>
         <Link
           href="https://www.checkatrade.com/trades/roofexltd"
