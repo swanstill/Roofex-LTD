@@ -10,7 +10,7 @@ const TopHeader = () => {
         <Image
           src={siteConfig.logoImage}
           alt={siteConfig.logoAltText}
-          className="h-15 w-1/2 shrink-0 object-contain md:h-15 md:w-55"
+          className="h-15 w-auto shrink-0 object-left object-contain"
           height={200}
           width={370}
           unoptimized
