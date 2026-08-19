@@ -35,6 +35,8 @@ const MultiStepForm = ({ onStepChange }: MultiStepFormProps) => {
 
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const steps = siteConfig.formData.steps;
+  // Steps that use a manual Next button instead of auto-advance (1-based: 4,5,6)
+  const manualSteps = [3, 4, 5];
 
   useEffect(() => {
     if (onStepChange) onStepChange(currentStep);
@@ -93,6 +95,7 @@ const MultiStepForm = ({ onStepChange }: MultiStepFormProps) => {
     isComplete: (val: string) => boolean,
   ) => {
     handleInputChange(field, value);
+    if (manualSteps.includes(currentStep)) return;
     if (debounceRef.current) clearTimeout(debounceRef.current);
     if (isComplete(value)) {
       debounceRef.current = setTimeout(() => {
@@ -108,6 +111,7 @@ const MultiStepForm = ({ onStepChange }: MultiStepFormProps) => {
     otherValue: string,
   ) => {
     handleInputChange(field, value);
+    if (manualSteps.includes(currentStep)) return;
     if (debounceRef.current) clearTimeout(debounceRef.current);
     const newFirst = field === "firstName" ? value : otherValue;
     const newLast = field === "lastName" ? value : otherValue;
@@ -351,7 +355,20 @@ const MultiStepForm = ({ onStepChange }: MultiStepFormProps) => {
           <span aria-hidden="true" />
         )}
 
-        {currentStep === steps.length - 1 ? (
+        {manualSteps.includes(currentStep) ? (
+          <button
+            onClick={goNext}
+            disabled={!isStepComplete()}
+            className="px-6 md:px-8 py-3 rounded-full font-bold text-white transition-all disabled:opacity-40 disabled:cursor-not-allowed text-sm md:text-base"
+            style={{
+              backgroundColor: isStepComplete()
+                ? siteConfig.brand.secondary
+                : "#6b7280",
+            }}
+          >
+            Next
+          </button>
+        ) : currentStep === steps.length - 1 ? (
           <button
             onClick={handleSubmit}
             disabled={!isStepComplete()}
