@@ -51,7 +51,7 @@ const TopHeader = () => {
         </div>
       </div>
 
-      {/* Row 2 on mobile: Checkatrade + TrustATrader; all three badges on md+ */}
+      {/* Google review badge */}
       <div className="flex w-full items-stretch gap-2 md:w-auto">
         <Link
           href="https://share.google/eewd9ZEPoBsN6jB3G"
@@ -65,38 +65,6 @@ const TopHeader = () => {
               width={180}
               height={60}
               className="h-full w-auto object-contain"
-            />
-          </div>
-        </Link>
-        <Link
-          href="https://www.checkatrade.com/trades/roofexltd"
-          target="_blank"
-          className="min-w-0 flex-1"
-        >
-          <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
-            <Image
-              src="/icons/checkatrade-widget.png"
-              alt="Checkatrade Reviews"
-              width={180}
-              height={60}
-              className="h-full w-full object-contain"
-              style={{ mixBlendMode: "multiply" }}
-            />
-          </div>
-        </Link>
-        <Link
-          href="https://www.trustatrader.com/traders/first-4-contracts-limited-roofers-roofing-whitchurch-and-heath"
-          target="_blank"
-          className="min-w-0 flex-1"
-        >
-          <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
-            <Image
-              src="/icons/trustatrader.png"
-              alt="TrustATrader Reviews"
-              width={180}
-              height={60}
-              className="h-full w-full object-contain"
-              style={{ mixBlendMode: "multiply" }}
             />
           </div>
         </Link>
