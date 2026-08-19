@@ -10,8 +10,8 @@ const MeetOwner = () => {
           {/* LEFT — Full photo */}
           <div className="relative min-h-100 lg:min-h-145">
             <Image
-              src="/images/team-image.jpeg"
-              alt="Team"
+              src="/images/billyjoe-docherty.webp"
+              alt="Billyjoe Docherty"
               fill
               className="object-cover object-top"
             />
