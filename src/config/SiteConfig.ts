@@ -5,25 +5,25 @@ export const siteConfig: SiteConfig = {
   logoImage: "/icons/logo.jpg",
   logoAltText: "Roofex LTD Logo",
   heroSloganPrimary:
-    " Professional Roofing in South Wales.",
-  heroSloganSecondary: "Family-Run & Fully Insured",
-  locationPrimary: "",
-  foundedYear: "Established 2024",
-  reviewScore: "5.0/5.0",
-  reviewCount: "37",
-  guaranteeYears: "20 Year Guarantee",
-  insurredInfo: "Fully Insured",
-  jobsCompleted: "250+ Jobs Completed",
+    " We're Your Local Roofer",
+  heroSloganSecondary: "Family-Run & Fully Accredited",
+  locationPrimary: "In West Yorkshire",
+  foundedYear: "20+ Years Experience",
+  reviewScore: "5/5",
+  reviewCount: "4160",
+  guaranteeYears: "25 Year Guarantee",
+  insurredInfo: "Fully Accredited",
+  jobsCompleted: "4,160+ Projects Completed",
   phoneNumber: "+447427694766",
   emailAddress: "info@roofexltd.co.uk",
-  ctaTextPrimary: "Get a Free Roof Inspection",
+  ctaTextPrimary: "Get My Free Quote",
   ctaTextSecondary: "Call Us",
   heroImage: "/images/hero-image.jpeg",
   heroImageAltText: "Roofex LTD Hero Image",
   heroTitle:
-    "Trusted Roofers in South Wales.",
+    "We're Your Local Roofer",
   heroDescription:
-    "Honest pricing, expert workmanship, and a 20-year guarantee on every roof we build in South Wales.",
+    "Local roofing experts serving West Yorkshire with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
   galleryImages: [
     "/gallery/09090.jpeg",
     "/gallery/1413.jpeg",
@@ -54,7 +54,7 @@ export const siteConfig: SiteConfig = {
     {
       question: "Are you fully insured?",
       answer:
-        "Absolutely. We’re fully insured and qualified, and every roofing job comes with a 20-year workmanship guarantee for complete peace of mind.",
+        "Absolutely. We’re fully insured and qualified, and every roofing job comes with a 25-year workmanship guarantee for complete peace of mind.",
     },
     {
       question: "What happens if it rains during the job?",
@@ -72,19 +72,19 @@ export const siteConfig: SiteConfig = {
     secondary: "#010203",
   },
   seo: {
-    baseUrl: "https://www.roofexltd.co.uk/",
+    baseUrl: "https://roofexltd.uk",
     titleTemplate: "%s | Roofex LTD",
     defaultTitle:
-      "Trusted Roofers in South Wales.",
+      "We're Your Local Roofer in West Yorkshire",
     description:
-      "Honest pricing, expert workmanship, and a 20-year guarantee on every roof we build in South Wales",
+      "Local roofing experts serving West Yorkshire with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
     ogImage: "/images/og-default.jpg",
     twitterHandle: "@roofexltd",
   },
   reviewsData: {
-    source: "Checkatrade",
-    sourceImage: "/images/checkatrade-logo.png",
-    reviewsUrl: "https://www.checkatrade.com/trades/roofexltd",
+    source: "Google",
+    sourceImage: "/images/google-reviews.png",
+    reviewsUrl: "https://maps.app.goo.gl/3bihMqcPVpCQgKb26",
     reviews: [
       {
         name: "Vrg Leeds",
@@ -362,23 +362,27 @@ export const siteConfig: SiteConfig = {
     steps: [
       {
         icon: "/icons/receipt.svg",
-        title: "Request Your Quote",
-        description: "Fill out our quick 1-minute form.",
+        title: "Appointment",
+        description:
+          "Schedule in a time that works for you, so we can visit your property and assess what works needs to be done.",
       },
       {
         icon: "/icons/search-check.svg",
-        title: "Free Inspection",
-        description: "We'll assess your roof and explain what's needed.",
+        title: "Provide Quote",
+        description:
+          "You'll be provided with a detailed quote of the work you need and how much it will cost to be completed.",
       },
       {
         icon: "/icons/clipboard-check.svg",
         title: "Job Completion",
-        description: "Our team completes the work to the highest standards.",
+        description:
+          "We'll complete the job quickly and efficiently, keeping high standards with no mess left behind.",
       },
       {
         icon: "/icons/handshake.svg",
-        title: "Aftercare",
-        description: "We follow up to make sure you're 100% satisfied.",
+        title: "After Care",
+        description:
+          "We'll be checking in with you to answer any questions and make sure you're happy with your service.",
       },
     ],
   },
@@ -402,22 +406,22 @@ export const siteConfig: SiteConfig = {
     ],
   },
   ownerInfo: {
-    headline: "Meet the Team Behind Roofex LTD",
-    text: "“Hi, we’re the team behind Roofex LTD. We started Roofex LTD to give homeowners an honest, professional roofing service they can rely on. With over 15 years of experience, we take pride in every roof we complete.”",
+    headline: "Meet Billyjoe Docherty",
+    text: "“Hi, I'm Billyjoe and I've been roofing in West Yorkshire for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
     bulletPoints: [
-      "250+ projects completed locally",
-      "Fully insured & qualified team",
-      "20-Year workmanship guarantee",
+      "4,160+ Projects Completed Locally",
+      "5/5 Verified Google Reviews",
+      "25-Year Guarantee & Fixed Pricing",
     ],
     ownerImage: "/images/team-image.jpeg",
   },
   cta: {
     headline: "Ready to Get Started?",
     subtitle: "Get your free, no-obligation roofing quote today.",
-    buttonPrimary: "Get Free Quote",
+    buttonPrimary: "Get My Free Quote",
     buttonSecondary: "Call Us",
     buttonPrimaryUrl: "#quote-form",
     buttonSecondaryUrl: "tel:+447427694766",
-    caption: "Honest pricing | No hidden fees | 20-Year guarantee",
+    caption: "Honest pricing | No hidden fees | 25-Year guarantee",
   },
 };

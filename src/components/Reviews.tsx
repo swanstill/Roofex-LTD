@@ -20,10 +20,10 @@ const Reviews = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="text-center mb-10">
           <h2 className="font-bold text-2xl md:text-4xl text-gray-900">
-            We&apos;re Rated 5.0/5.0 on Google
+            We&apos;re Rated 5/5 On Google
           </h2>
           <p className="text-gray-500 text-lg mt-2">
-            Based on 63+ verified reviews
+            Based on verified reviews
           </p>
         </div>
 

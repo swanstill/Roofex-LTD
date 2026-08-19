@@ -20,18 +20,17 @@ const MeetOwner = () => {
           <div className="bg-gray-50 flex flex-col justify-center px-8 md:px-12 py-10 gap-5">
             <div>
               <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
-                Meet The Team
+                Meet Billyjoe Docherty
               </h2>
               <p className="text-lg md:text-xl font-semibold text-gray-700 mt-1">
-                Our People Behind The Work
+                Your Local Roofer in West Yorkshire
               </p>
             </div>
 
             <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-              &ldquo;Hi, we are the faces behind Roofex LTD. We
-              started Roofex LTD to give homeowners an honest,
-              professional roofing service they can rely on. With over 15 years
-              of experience, we take pride in every roof we complete.&rdquo;
+              &ldquo;Hi, I&apos;m Billyjoe and I&apos;ve been roofing in West
+              Yorkshire for over 20 years. If I wouldn&apos;t accept it on my own
+              home, it doesn&apos;t go on yours.&rdquo;
             </p>
 
             <ul className="flex flex-col gap-3">
