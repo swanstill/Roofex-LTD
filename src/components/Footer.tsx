@@ -44,11 +44,13 @@ const Footer = () => {
             © {siteConfig.companyName}. All rights reserved.
           </p>
           <Link
-            href="https://www.tradesgrow.co.uk"
+            href="https://www.tradesgrow.co.uk/"
             target="_blank"
             className="md:w-1/3 flex justify-end"
           >
-            <p className="text-white underline">Website by Trades Grow</p>
+            <p className="text-white underline">
+              Website design with ♥ by Trades Grow
+            </p>
           </Link>
         </div>
       </div>
