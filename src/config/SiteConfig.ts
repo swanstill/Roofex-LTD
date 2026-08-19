@@ -84,7 +84,7 @@ export const siteConfig: SiteConfig = {
   reviewsData: {
     source: "Google",
     sourceImage: "/images/google-reviews.png",
-    reviewsUrl: "https://maps.app.goo.gl/3bihMqcPVpCQgKb26",
+    reviewsUrl: "https://share.google/eewd9ZEPoBsN6jB3G",
     reviews: [
       {
         name: "Sapphire Doherty",

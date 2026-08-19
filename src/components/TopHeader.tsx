@@ -16,18 +16,17 @@ const TopHeader = () => {
           unoptimized
         />
         <Link
-          href="https://maps.app.goo.gl/3bihMqcPVpCQgKb26"
+          href="https://share.google/eewd9ZEPoBsN6jB3G"
           target="_blank"
           className="min-w-0 w-1/2 inset-0 md:hidden"
         >
           <div className="flex h-[60px] w-full items-center justify-center">
             <Image
-              src="/icons/google-widget.png"
+              src="/icons/google-widget.jpg"
               alt="Google Reviews"
               width={180}
               height={60}
-              className="h-full w-full "
-              style={{ mixBlendMode: "multiply" }}
+              className="h-full w-auto object-contain"
             />
           </div>
         </Link>
@@ -55,18 +54,17 @@ const TopHeader = () => {
       {/* Row 2 on mobile: Checkatrade + TrustATrader; all three badges on md+ */}
       <div className="flex w-full items-stretch gap-2 md:w-auto">
         <Link
-          href="https://share.google/IBkXH6SbU4ajLMwyp"
+          href="https://share.google/eewd9ZEPoBsN6jB3G"
           target="_blank"
           className="hidden min-w-0  md:flex"
         >
           <div className="flex h-[60px] w-full items-center justify-center md:w-[180px]">
             <Image
-              src="/icons/google-widget.png"
+              src="/icons/google-widget.jpg"
               alt="Google Reviews"
               width={180}
               height={60}
-              className="h-full w-full object-contain"
-              style={{ mixBlendMode: "multiply" }}
+              className="h-full w-auto object-contain"
             />
           </div>
         </Link>
