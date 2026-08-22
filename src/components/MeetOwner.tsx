@@ -28,7 +28,7 @@ const MeetOwner = () => {
             </div>
 
             <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-              &ldquo;Hi, I&apos;m Billyjoe and I&apos;ve been roofing in West
+              &ldquo;Hi, I&apos;m Billyjoe and I&apos;ve been roofing in
               Yorkshire for over 20 years. If I wouldn&apos;t accept it on my own
               home, it doesn&apos;t go on yours.&rdquo;
             </p>
