@@ -23,7 +23,7 @@ const MeetOwner = () => {
                 Meet Billyjoe Docherty
               </h2>
               <p className="text-lg md:text-xl font-semibold text-gray-700 mt-1">
-                Your Local Roofer in West Yorkshire
+                Your Local Roofer in Yorkshire
               </p>
             </div>
 

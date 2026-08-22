@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
   heroSloganPrimary:
     " We're Your Local Roofer",
   heroSloganSecondary: "Family-Run & Fully Accredited",
-  locationPrimary: "In West Yorkshire",
+  locationPrimary: "In Yorkshire",
   foundedYear: "20+ Years Experience",
   reviewScore: "5/5",
   reviewCount: "4160",
@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
   heroTitle:
     "We're Your Local Roofer",
   heroDescription:
-    "Local roofing experts serving West Yorkshire with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
+    "Local roofing experts serving Yorkshire with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
   galleryImages: [
     "/gallery/09090.jpeg",
     "/gallery/1413.jpeg",
@@ -75,9 +75,9 @@ export const siteConfig: SiteConfig = {
     baseUrl: "https://roofexltd.uk",
     titleTemplate: "%s | Roofex LTD",
     defaultTitle:
-      "We're Your Local Roofer in West Yorkshire",
+      "We're Your Local Roofer in Yorkshire",
     description:
-      "Local roofing experts serving West Yorkshire with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
+      "Local roofing experts serving Yorkshire with over 20 years of experience, 4,160+ jobs completed, and a 25-year guarantee on every roof.",
     ogImage: "/images/og-default.jpg",
     twitterHandle: "@roofexltd",
   },
@@ -236,7 +236,7 @@ export const siteConfig: SiteConfig = {
   },
   ownerInfo: {
     headline: "Meet Billyjoe Docherty",
-    text: "“Hi, I'm Billyjoe and I've been roofing in West Yorkshire for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
+    text: "“Hi, I'm Billyjoe and I've been roofing in Yorkshire for over 20 years. If I wouldn't accept it on my own home, it doesn't go on yours.”",
     bulletPoints: [
       "4,160+ Projects Completed Locally",
       "5/5 Verified Google Reviews",

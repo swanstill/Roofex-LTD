@@ -13,8 +13,8 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 export const metadata: Metadata = {
-  title: "Roofex LTD - We're Your Local Roofer in West Yorkshire",
-  description: "Roofex LTD - We're Your Local Roofer in West Yorkshire",
+  title: "Roofex LTD - We're Your Local Roofer in Yorkshire",
+  description: "Roofex LTD - We're Your Local Roofer in Yorkshire",
 };
 
 export default function RootLayout({
